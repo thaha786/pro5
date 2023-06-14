@@ -1,0 +1,90 @@
+/* body{
+    background-image: url(https://images.pexels.com/photos/3617500/pexels-photo-3617500.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+} */
+body
+{
+   
+    animation:change 4.3s ease infinite;
+}
+@keyframes change
+{
+    /* 0%
+    {
+        background-image: url(https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+    0%
+    {
+        background-image: url(https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?cs=srgb&dl=pexels-pixabay-33109.jpg&fm=jpg&_gl=1*1csbmzb*_ga*MTQ0NTE1MDgyNi4xNjg2MjUyMTcw*_ga_8JE65Q40S6*MTY4NjcyNDgzMi4xMi4xLjE2ODY3MjQ4MzkuMC4wLjA.);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%
+    {
+        background-image: url(https://images.pexels.com/photos/4450178/pexels-photo-4450178.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     100%
+    {
+        background-image: url(https://images.pexels.com/photos/3617500/pexels-photo-3617500.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+    /* 100%
+    {
+        background-image: url(https://images.pexels.com/photos/12632313/pexels-photo-12632313.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+} */ 
+a:link
+{
+    text-decoration: none;
+    
+    
+}
+.main
+{
+    padding: 2%;
+    justify-content: flex-end;
+}
+a{
+   
+    
+    padding: 40px;
+    color: white;
+}
+
+h1{
+   
+    color:white;
+    font-size: 45px;
+    animation:movement 2s infinite;
+}
+@keyframes movement
+{
+0%
+{
+    text-shadow: 0 0 5px purple;
+}
+25%
+{
+    text-shadow: 0 0 5px blue;; 
+}
+50%
+{
+    text-shadow: 0 0 5px red;
+}
+75%
+{
+    text-shadow: 0 0 5px  green;
+}
+100%
+{
+    text-shadow: 0 0 5px yellowgreen;
+}
+}

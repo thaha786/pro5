@@ -1,0 +1,23 @@
+h1{
+    align-items: center;
+    border-radius: 20%;
+}
+body{
+    background-image:url('https://t3.ftcdn.net/jpg/02/90/89/76/360_F_290897614_7RdAsk2GmumcGWZ2qklmV74hKlNmznSx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:600px;
+    align-items: center;
+    margin-left: 30%;
+    
+} 
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    background-color: black;
+    border:2px solid white;
+   margin-top:300px;
+    box-shadow: 2px 2px 20px skyblue;
+    border-radius:100%;
+
+} 
